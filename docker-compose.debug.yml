@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  caddyplus:
+    image: caddyplus
+    build:
+      context: .
+      dockerfile: ./Dockerfile
